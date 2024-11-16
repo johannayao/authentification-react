@@ -14,14 +14,13 @@ const Footer = () => {
     </div> */}
     <hr className="footer-break"/>
     <ul className="footer-links" role="navigation" aria-labelledby="footer-links-heading">
-        <h3 id="footer-links-heading" className="sr-only">Footer Links</h3>
-        <li><a href="#">Site Home</a></li>
-        <li><a href="#">Playground</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Sitemap</a></li>
-        <li><a href="#">Contents</a></li>
+        <h3 id="footer-links-heading" className="sr-only">Liens footer</h3>
+        <li><a href="#">acceuil</a></li>
+        <li><a href="#">mes services</a></li>
+        <li><a href="#">nous-contacter</a></li>
+        
     </ul>
-    <p className="copyright">© 2024 SDavidPrince. Demo of a footer. Some Rights Reserved</p>
+    <p className="copyright">© 2024 tous droit reservés</p>
 </footer>
         </>
     );

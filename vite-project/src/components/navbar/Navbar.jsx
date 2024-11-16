@@ -79,9 +79,9 @@ const Navbar = () => {
             <NavLink to="/" className="active">
               Accueil
             </NavLink>
-            <Link to="/">contacter-nous</Link>
-            <Link>About</Link>
-            <Link>About</Link>
+            {/* <Link to="/">contacter-nous</Link> */}
+            <Link to="/articles">Mes services</Link>
+            {/* <Link>About</Link> */}
             {buttonDeconnecte === true ? (
               <button
                 className="buttonDeconnecter"
@@ -103,7 +103,7 @@ const Navbar = () => {
             )}
           </ul>
 
-          <h1 className="logo">Navbar</h1>
+          <h1 className="logo">Reservation</h1>
         </div>
       </nav>
     </>

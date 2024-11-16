@@ -6,6 +6,7 @@ import SignUp from "./pages/signUp/SignUp";
 import Index from "./pages/index/Index.jsx"
 import Entree from "./pages/entree/Entree.jsx";
 import Footer from "./components/footer/Footer.jsx";
+import MesServices from "./components/Messervices/MesServices.jsx";
 
 function App() {
   const router = createBrowserRouter([
@@ -28,6 +29,10 @@ function App() {
      {
       path:"/footer",
       element: <Footer/>
+     },
+     {
+      path:"/articles",
+      element: <MesServices/>
      },
   ])
   
