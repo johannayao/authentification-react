@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import SignIn from './pages/signIn/signIn.jsx';
+import SignIn from './pages/signIn/SignIn';
 import SignUp from "./pages/signUp/SignUp";
 // import Index from "./pages/index/Index.Jsx";
 import Index from "./pages/index/Index.jsx";
